@@ -7,10 +7,7 @@ public class MataKuliah02 {
 
     //default
     public MataKuliah02() {
-        this.kodeMK = " ";
-        this.nama = " ";
-        this.sks = 0;
-        this.jumlahJam = 0;
+
     }
 
     // berparameter
