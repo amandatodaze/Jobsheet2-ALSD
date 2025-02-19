@@ -37,7 +37,7 @@ public class Mahasiswa02 {
         }
     }
 
-    public Mahasiswa02() {
+    public Mahasiswa02(){
 
     }
 
