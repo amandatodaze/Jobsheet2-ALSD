@@ -18,10 +18,11 @@ public class MataKuliah02 {
         this.jumlahJam = jumlahJam;
     }
     public void tampilInformasi(){
-        System.out.println("Kode Mata Kuliah: " + kodeMK);
-        System.out.println("Nama Mata Kuliah: " + nama);
-        System.out.println("Jumlah SKS: " + sks);
-        System.out.println("Jumlah Jam: " + jumlahJam);
+        System.out.println("Kode Mata Kuliah    : " + kodeMK);
+        System.out.println("Nama Mata Kuliah    : " + nama);
+        System.out.println("Jumlah SKS          : " + sks);
+        System.out.println("Jumlah Jam          : " + jumlahJam);
+        System.out.println("-----------------------------------");
     }
     public void ubahSKS(int sksBaru) {
         sks = sksBaru;

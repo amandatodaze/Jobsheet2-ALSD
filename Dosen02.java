@@ -24,6 +24,7 @@ public class Dosen02 {
         System.out.println("Status Aktif    : " + (statusAktif? "Aktif" : "Tidak Aktif"));
         System.out.println("Tahun Bergabung : " + tahunBergabung);
         System.out.println("Bidang Keahlian : " + bidangKeahlian);
+        System.out.println("-------------------------------------------------");
     }
 
     void setStatusAktif(boolean status) {

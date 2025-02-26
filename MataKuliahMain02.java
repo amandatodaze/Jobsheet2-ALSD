@@ -8,17 +8,21 @@ public class MataKuliahMain02 {
     matkul1.jumlahJam = 6;
     matkul1.tampilInformasi();
 
-    MataKuliah02 matkul2 = new MataKuliah02("MK02", "Pemrograman Berorientasi Objek", 3, 6);
-    System.out.println("\nInformasi Mata Kuliah 2");
-    matkul2.tampilInformasi();
-    
-    System.out.println("\nMengubah SKS Mata Kuliah 1 menjadi 4");
     matkul1.ubahSKS(4);
+    matkul1.tambahJam(2);
+    matkul1.kurangiJam(3);
 
-    System.out.println("\nMenambahkan 2 jam pada Mata Kuliah 2");
+    System.out.println("Setelah perubahan:");
+    matkul1.tampilInformasi();
+
+    MataKuliah02 matkul2 = new MataKuliah02("MK02", "Pemrograman Berorientasi Objek", 3, 6);
+    System.out.println("Informasi Mata Kuliah 2");
+    matkul2.tampilInformasi();
+
     matkul2.tambahJam(2);
+    matkul2.kurangiJam(5);
 
-    System.out.println("\nMengurangi 1 jam pada Mata Kuliah 2");
-    matkul2.kurangiJam(1);
+    System.out.println("Setelah perubahan: ");
+    matkul2.tampilInformasi();
     }
 }
